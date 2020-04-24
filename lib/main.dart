@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.cyan.shade900,
+        backgroundColor: Colors.teal.shade900,
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
               Text(
                 'FLUTTER DEVELOPER',
                 style: TextStyle(
-                  fontFamily: 'Source Sans Pro',
+                  fontFamily: 'Pacifico',
                   color: Colors.teal.shade100,
                   fontSize: 20.0,
                   fontWeight: FontWeight.bold,
